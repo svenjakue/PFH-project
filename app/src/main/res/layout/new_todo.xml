@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/newToDoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="New ToDo"/> // Eingabe
+
+    <Button
+        android:id="@+id/newToDoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newToDoText"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:text="Save"
+        android:textAllCaps="true"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
